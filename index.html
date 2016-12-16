@@ -1,0 +1,137 @@
+<!doctype html>
+
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Contenido con HTML</title>
+</head>
+<body>
+	<header>
+		<nav>
+			<img src="imagenes/back_header.jpg">
+			<ul>
+				<li><a href="main.html">Main</a></li>
+				<li><a href="demos.html">Demos</a></li>
+				<li><a href="portfolio.html">Portfolio</a></li>
+				<li><a href="blog.html">Blog</a></li>
+				<li><a href="shortcodes.html">Shortcodes</a></li>
+			</ul>
+		</nav>
+		<h1>
+			Huge ultimate website builder kit
+		</h1>
+	</header>
+	<section>
+		<article>
+			<img src="imagenes/cellphone.png">
+			<h2>We're a creative agency</h2>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit
+			</p>
+			<p>
+				in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+			<a href="purchase.html">Purchase</a>
+		</article>
+	</section>
+	<section>
+		<article>
+			<img src="http://www.placehold.it/30x30">
+			<h4>Multi Purpose</h4>
+			<p>Class aptent taciti</p>
+		</article>
+		<article>
+			<img src="http://www.placehold.it/30x30">
+			<h4>Retina Ready</h4>
+			<p>Class aptent taciti</p>
+		</article>
+		<article>
+			<img src="http://www.placehold.it/30x30">
+			<h4>Modern Design</h4>
+			<p>Class aptent taciti</p>
+		</article>
+		<article>
+			<img src="http://www.placehold.it/30x30">
+			<h4>Daily Updates</h4>
+			<p>Class aptent taciti</p>
+		</article>
+	</section>	
+	<!-- Inicio no pertenece al diseño salvo para email se sigue usando table-->
+	<section>
+		<table>
+			<tr>
+				<th>Nombres</th>
+				<th>Nota 1</th>
+				<th>Nota 2</th>
+				<th>Nota 3</th>
+			</tr>
+			<tr>
+				<td>Laura</td>
+				<td>9</td>
+				<td>6</td>
+				<td>8</td>
+			</tr>
+			<tr>
+				<td>Daniel</td>
+				<td>5</td>
+				<td>6</td>
+				<td>7</td>
+			</tr>
+			<tr>
+				<td>Jose</td>
+				<td>5</td>
+				<td>6</td>
+				<td>7</td>
+			</tr>
+			<tr>
+				<td>Pedro</td>
+				<td>7</td>
+				<td>7</td>
+				<td>8</td>
+			</tr>
+		</table>      
+	</section>
+
+	<!--  Fin no pertenece al diseño salvo para email se sigue usando table-->
+	<section>
+		<form method="POST" action="enviar.php" enctype="multipart/form-data">
+			<label for ="nombre">Nombre:</label>
+			<input type="text" name="nombre" placeholder="Completá tu nombre" required>   
+			<br/>
+			<label for="correo">Email:</label>
+			<input type="email" name="correo" placeholder="Ingresa tu email" required>
+		</br>
+		<label for="password">Contraseña</label>
+		<input type="password" name="password" placeholder="Ingresa tu contraseña" required>
+		<br/>
+		<label for="provincia"></label>
+		<select name="provincia">
+			<option value="BA">Buenos Aires</option>
+			<option value="CBA">Córdoba</option>
+			<option value="SL">San Luis</option>
+			<option value="RN">Rio Negro</option>
+			<option value="NQN">Neuquen</option>
+		</select>
+		<br/>
+		<label for="factura"></label>
+		<input type="file" name="factura">
+		<br/>
+		<input type="radio" name="retira" value="delivery" checked> Delivery
+		<input type="radio" name="retira" value="retira"> Retira por local
+		<br/>
+		<input type="checkbox" name="tarjeta" value="tarjeta" required>Acepta tc<br>        
+		<br/>
+		<input type="submit" value="Enviar formulario">
+	</form>
+	<video src="videos/343378693.mp4" controls>
+            Tu navegador no implementa el elemento <code>video</code>.
+    </video>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/7E4GsPnGQrg" frameborder="0" allowfullscreen></iframe>
+</section>
+</body>
+</html>
